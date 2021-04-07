@@ -1,0 +1,14 @@
+{
+  "name": "gh-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/konofan-wiki/jp",
+  "author": "thainq3127 <thainq3127@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "go": "rm -rf public/data && touch public/.nojekyll && gh-pages -d public -t true"
+  }
+}
